@@ -1,0 +1,16 @@
+[package]
+name = "list-unsubscribe"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.79"
+mail-builder = "0.3.1"
+mail-parser = "0.9.2"
+mail-send = "0.4.6"
+reqwest = { version = "0.11", default-features = false, features = ["json", "rustls-tls"] }
+structopt = "0.3.21"
+tokio = { version = "1.35.1", features = ["full"] }
+url = "2.5.0"
