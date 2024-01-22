@@ -2,6 +2,14 @@
 
 Small tool that will mass unsubscribe from mailing lists.
 
+## How it works
+
+This tool will scan emails and look for the `List-Unsubscribe` header and will
+try to unsubscribe by sending emails to the provided address and also follow
+`One-Click` unsubscribe link.
+
+## Usage
+
 To use, put emails you want to unsubscribe from in a folder, and run the tool
 like this:
 
